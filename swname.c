@@ -11,7 +11,7 @@
     full[i]=' ';
     i++;
     int j=0;
-    while(last[i]!='\0')
+    while(last[j]!='\0')
     {
         full[i]=last[j];
         i++;
@@ -22,7 +22,7 @@
      if(len<sw)
      printf("Fits in the screen");
      else
-     printf("Does not fits in the screen")
+     printf("Does not fits in the screen");
     }
     void main()
     {
